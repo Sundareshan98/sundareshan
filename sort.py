@@ -1,6 +1,6 @@
 a=int(input())
 l=""
-s1=""
+s1=[]
 for i in range(0,a):
     a=str(input())
     l+=a
@@ -9,6 +9,6 @@ for i in range(0,len(s)):
     if s[i]==" ":
         continue
     else:
-        s1+=s[i]
-print(s1)
+        s1.append(s[i])
+print(*s1)
 
