@@ -10,4 +10,5 @@ for i in range(0,len(b)):
         
     else:
         continue
-print(*l)
+l1=sorted(l)
+print(*l1)
